@@ -4,7 +4,9 @@
 
 ## What I Accomplished
 
-Provisioned a managed Kubernetes cluster on GKE Autopilot on Windows using the `gcloud` CLI, from project and billing setup through a live, internet-exposed Deployment and safe teardown. The NGINX workload was scaled to three replicas across multiple Autopilot-provisioned nodes and served publicly through a Google Cloud load balancer, then fully decommissioned in the same session with a verified return to zero running resources. Demonstrates comfort with the declarative Kubernetes model — Deployments, Services, and horizontal scaling — and with cost-aware cloud hygiene.
+Provisioned a managed Kubernetes cluster on GKE Autopilot on Windows using the `gcloud` CLI, from project and billing setup through a live, internet-exposed Deployment and safe teardown. The NGINX workload was scaled to three replicas across multiple Autopilot-provisioned nodes and served publicly through a Google Cloud load balancer, then fully decommissioned in the same session with a verified return to zero running resources. Demonstrates comfort with the declarative Kubernetes model — Deployments, Services, and horizontal scaling — and with cost-aware cloud hygiene.  
+
+Also added Google_Kubernetes_Engine_Training.pdf that is a collection of materials + links I gathered after attending Google's GKE training June 9, 2026 on Google's Sunnyvale campus.  I was used to complete the Google Badge in Kubernetes Fundamentals GKE on August 31, 2026.
 
 ## What / When / How
 
